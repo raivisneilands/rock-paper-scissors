@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+#player-choice-container {
+    display: flex;
+    margin: 50px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+#computer-choice-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    align-content: center;
+}
+.choice,
+.pcChoice {
+    margin-right: 10px; 
+}
+button{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    background-color: white;
+}
+button:hover{
+    background-color: lightgray;
+}
+h1{
+    margin: 0;
+    margin-left: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.result{
+    margin: 0;
+    margin-left: 33%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-self: center;
+}
+p{
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    align-self: center;
+}

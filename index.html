@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <div class="result" id="result">
+        <p>Result will be displayed here</p>
+    </div>
+    <div id="player-choice-container">
+        <p>Your choice</p>
+        <div class="choice">
+            <button onclick="choice(this)" id="rock">
+                <i class="fas fa-hand-rock" style="font-size: 150px;"></i>
+            </button>
+        </div>
+        <div class="choice">
+            <button onclick="choice(this)" id="paper">
+                <i class="fas fa-hand-paper" style="font-size: 150px;"></i>
+            </button>
+        </div>
+        <div class="choice">
+            <button onclick="choice(this)" id="scissors">
+                <i class="fas fa-hand-scissors" style="font-size: 150px;"></i>
+            </button>
+        </div>
+    </div>
+    <h1>VS</h1>
+    <div id="computer-choice-container">
+        <p>CPU's Choice</p>
+        <div class="pcChoice">
+            <button id="computerScissors">
+                <i class="fas fa-hand-scissors" style="font-size: 150px;"></i>
+            </button>
+        </div>
+        <div class="pcChoice">
+            <button id="computerPaper">
+                <i class="fas fa-hand-paper" style="font-size: 150px;"></i>
+            </button>
+        </div>
+        <div class="pcChoice">
+            <button  id="computerRock">
+                <i class="fas fa-hand-rock" style="font-size: 150px;"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
